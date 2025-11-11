@@ -5,4 +5,4 @@ title = 'Hugo asennettu'
 tags = ["hugo", "blog"]
 +++
 Tulipa pitkästä aikaa asennettua Hugo blogausalustaksi. Tänne julkaisen blogauksia, jotka eivät aiheensa puolesta sovi muihin blogeihini.
-Olet tervetullur! Resistance is a futile!
+Olet tervetullut! Resistance is a futile!
