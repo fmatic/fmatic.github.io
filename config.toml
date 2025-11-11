@@ -1,4 +1,4 @@
-baseURL = "https://fmatic.online/"
+baseURL = "https://fmatic.github.io/"
 languageCode = "fi-FI"
 title = "fmatic's digital playground"
 theme = "archie"
