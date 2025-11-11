@@ -1,0 +1,42 @@
+baseURL = "https://fmatic.github.io/"
+languageCode = "fi-FI"
+title = "fmatic's digital playground"
+theme = "archie"
+copyright = "© fmatic"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  mode = "auto"
+  useCDN = false
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/fmatic"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/JanneDX"
+
+[[menu.main]]
+name = "Etusivu"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blogaukset"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Kuka?"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
