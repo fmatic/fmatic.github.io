@@ -22,9 +22,6 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify
-
-            - name: Build site
         run: hugo --gc --minify
 
       - name: Deploy to gh-pages
@@ -34,4 +31,3 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           cname: fmatic.online
-
