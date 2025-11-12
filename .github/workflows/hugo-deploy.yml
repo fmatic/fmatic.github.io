@@ -3,27 +3,36 @@ name: Deploy Hugo site
 on:
   push:
     branches:
-      - main
+      - main  # workflow triggeröityy aina main-branchin pushista
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout pääprojekti + submodule (Archie)
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+          submodule_branch: master   # varmistaa, että submodule saa viimeisimmän commitin
 
+      # 2️⃣ Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
+      # 3️⃣ Build Hugo-sivut
       - name: Build site
-        run: hugo --gc --minify
+        run: |
+          rm -rf public resources
+          hugo --gc --minify
+          ls public  # tarkistus, että sisältö on olemassa
 
+      # 4️⃣ Deploy gh-pages
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -31,3 +40,4 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           cname: fmatic.online
+          force_orphan: true
