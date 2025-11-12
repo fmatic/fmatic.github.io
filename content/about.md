@@ -11,7 +11,7 @@ Sananen sivuston ylläpitäjästä:
 
 * fmatic a.k.a. Janne Heinikangas
 * Sijainti: Jyväskylä
-* Muuta maijittavaa: Radioharrastaja. Tunnetaan siellä täällä nimimerkillä JJH ja Oh6-201
+* Muuta mainittavaa: Radioharrastaja. Tunnetaan siellä täällä nimimerkillä JJH ja Oh6-201
 
 Muita sivustojani:
 
