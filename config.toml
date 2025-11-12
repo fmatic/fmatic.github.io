@@ -1,3 +1,4 @@
+
 baseURL = "https://fmatic.github.io"
 languageCode = "fi-FI"
 title = "fmatic's digital playground"
@@ -11,6 +12,7 @@ pygmentscodefencesguesssyntax = true
 disableFingerprinting = true
 mode = "dark"
 useCDN = false
+last_build_trigger = "2025-11-12T23:45:00"
 
 [[params.social]]
 name = "GitHub"
