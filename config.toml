@@ -1,4 +1,4 @@
-baseURL = "https://fmatic.online/"
+baseURL = "https://fmatic.github.io"
 languageCode = "fi-FI"
 title = "fmatic's digital playground"
 theme = "archie"
@@ -8,8 +8,9 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-  mode = "dark"
-  useCDN = false
+disableFingerprinting = true
+mode = "dark"
+useCDN = false
 
 [[params.social]]
 name = "GitHub"
@@ -23,8 +24,13 @@ url = "https://twitter.com/JanneDX"
 
 [[params.social]]
 name = "Instagram"
-icon = "instagram"	
+icon = "instagram"
 url = "https://www.instagram.com/heinikangas"
+
+[[params.social]]
+name = "Mastodon"
+icon = "simple:mastodon"
+url = "https://mastodontti.fi/@heinikangas"
 
 [[menu.main]]
 name = "Etusivu"
@@ -45,5 +51,3 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
-
-disableFingerprinting = true
