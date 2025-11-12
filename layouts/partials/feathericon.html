@@ -7,13 +7,12 @@
 {{- else -}}
   {{- if $useCDN }}
     <svg class="feather">
-      <use xlink:href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather-sprite.svg#{{ $icon }}"></use>
+      <use href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather-sprite.svg#{{ $icon }}"></use>
     </svg>
   {{- else }}
     <svg class="feather">
-      <use xlink:href="{{ "svg/feather-sprite.svg#" | relURL }}{{ $icon }}"></use>
+      <use href="{{ "svg/feather-sprite.svg#" | absURL }}{{ $icon }}"></use>
     </svg>
   {{- end -}}
 {{- end -}}
 {{- end -}}
-
