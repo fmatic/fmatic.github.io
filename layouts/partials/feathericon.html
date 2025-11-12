@@ -1,18 +1,25 @@
 {{- define "feathericon" -}}
 {{- $icon := .Icon -}}
-{{- $useCDN := .UseCDN | default false -}}
 
 {{- if hasPrefix $icon "simple:" -}}
   <i class="si si-{{ substr $icon 7 }}"></i>
 {{- else -}}
-  {{- /* Inline SVG-symbol fallback */ -}}
-  <svg class="feather" width="16" height="16" fill="none"
-       stroke="#FFC700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    {{- if $useCDN -}}
-      <use href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather-sprite.svg#{{ $icon }}"></use>
-    {{- else -}}
-      <use href="{{ "svg/feather-sprite.svg#" | relURL }}{{ $icon }}"></use>
-    {{- end -}}
-  </svg>
+  {{- /* Inline SVG fallback, kaikki symbolit mukana suoraan */ -}}
+  {{- if eq $icon "github" -}}
+    <svg class="feather" width="16" height="16" fill="none" stroke="#FFC700"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 0.5C5.65 0.5 0.5 5.65 0.5 12C0.5 17.3 4.05 21.8 9.15 23.5C9.65 23.6 9.85 23.3 9.85 23.05C9.85 22.85 9.85 22.05 9.85 21.25C6.15 21.85 5.45 19.35 5.45 19.35C4.95 18 4.25 17.65 4.25 17.65C3.1 16.85 4.35 16.85 4.35 16.85C5.65 16.95 6.35 18.15 6.35 18.15C7.5 20 9.25 19.45 9.95 19.15C10.05 18.45 10.35 17.95 10.7 17.65C7.95 17.35 5.05 16.3 5.05 11.6C5.05 10.3 5.5 9.25 6.25 8.45C6.15 8.15 5.75 6.9 6.35 5.25C6.35 5.25 7.25 4.95 9.85 6.45C10.65 6.2 11.55 6.1 12.45 6.1C13.35 6.1 14.25 6.2 15.05 6.45C17.65 4.95 18.55 5.25 18.55 5.25C19.15 6.9 18.75 8.15 18.65 8.45C19.4 9.25 19.85 10.3 19.85 11.6C19.85 16.3 16 17.35 13.25 17.65C13.7 18.05 14.05 18.75 14.05 19.85C14.05 21.5 14.05 22.85 14.05 23.05C14.05 23.3 14.25 23.65 14.75 23.55C19.85 21.8 23.4 17.3 23.4 12C23.4 5.65 18.25 0.5 12 0.5Z"/>
+    </svg>
+  {{- else if eq $icon "twitter" -}}
+    <svg class="feather" width="16" height="16" fill="none" stroke="#1DA1F2"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M23 3C22-0.5 19.5-1.5 16.5 0C14.5 0.5 13 2 13.5 4C9.5 3.5 6.5 1.5 3 0C0 2 0 5 1 7.5C1 7.5 0 8 0 9C0 12 2 15 5 15C4 15.5 2.5 15.5 1.5 15C3 18 6 20 9 20C16 20 20.5 12.5 23 3Z"/>
+    </svg>
+  {{- else -}}
+    <svg class="feather" width="16" height="16" fill="none" stroke="#FFC700"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+    </svg>
+  {{- end -}}
 {{- end -}}
 {{- end -}}
