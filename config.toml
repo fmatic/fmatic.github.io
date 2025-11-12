@@ -41,5 +41,4 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
-[params]
 disableFingerprinting = true
