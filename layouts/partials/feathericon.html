@@ -1,20 +1,12 @@
 {{- define "feathericon" -}}
 {{- $icon := .Icon -}}
-{{- $useCDN := .UseCDN | default true -}}
 
 {{- if hasPrefix $icon "simple:" -}}
   <i class="si si-{{ substr $icon 7 }}"></i>
 {{- else -}}
-  {{- if $useCDN }}
-    <!-- Feather Icons CDN (toimii Windows, Mac, Safari, Chrome, Edge) -->
-    <svg class="feather" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <use xlink:href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather-sprite.svg#{{ $icon }}"></use>
-    </svg>
-  {{- else }}
-    <!-- Local fallback -->
-    <svg class="feather" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <use xlink:href="{{ "/svg/feather-sprite.svg#" | absURL }}{{ $icon }}"></use>
-    </svg>
-  {{- end -}}
+  <!-- Local feather-sprite fallback -->
+  <svg class="feather" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <use xlink:href="{{ "/svg/feather-sprite.svg#" | absURL }}{{ $icon }}"></use>
+  </svg>
 {{- end -}}
 {{- end -}}
