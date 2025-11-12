@@ -8,7 +8,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-  mode = "auto"
+  mode = "dark"
   useCDN = false
 
 [[params.social]]
