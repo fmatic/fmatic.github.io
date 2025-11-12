@@ -21,6 +21,16 @@ name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/JanneDX"
 
+[[params.social]]
+name = "Instagram"
+icon = "instagram"	
+url = "https://www.instagram.com/heinikangas"
+
+[[params.social]]
+name = "Mastodon"
+icon = "mastodon"
+url = "https://mastodontti.fi/@heinikangas"
+
 [[menu.main]]
 name = "Etusivu"
 url = "/"
