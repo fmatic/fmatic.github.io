@@ -6,12 +6,14 @@
   <i class="si si-{{ substr $icon 7 }}"></i>
 {{- else -}}
   {{- if $useCDN }}
-    <svg class="feather" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg class="feather" width="16" height="16" fill="none" stroke="currentColor"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <use href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather-sprite.svg#{{ $icon }}"></use>
     </svg>
   {{- else }}
-    <svg class="feather" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <use href="{{ "/svg/feather-sprite.svg#" | relURL }}{{ $icon }}"></use>
+    <svg class="feather" width="16" height="16" fill="none" stroke="currentColor"
+         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <use href="{{ "/svg/feather-sprite.svg#" | absURL }}{{ $icon }}"></use>
     </svg>
   {{- end -}}
 {{- end -}}
