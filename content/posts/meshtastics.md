@@ -1,8 +1,8 @@
 +++
 date = '2025-11-11T22:51:51+02:00'
 draft = false
-title = 'Meshtastics'
-tags = ["LoRa","Meshtastics"]
+title = 'Meshtastic'
+tags = ["LoRa","Meshtastic"]
 +++
 Viime aikoina olen monen muun projektin lisäksi puuhastellut pienten LoRa-laitteiden parissa. Etenkin Meshtastic-projektin parissa, joka siis on
 avoimen lähdekoodin hajautettu mesh-verkko, joka on suunniteltu toimimaan vähän virtaa kuluttavilla laitteilla -> lisää aiheesta osoitteessa 
