@@ -1,7 +1,7 @@
 +++
 date = '2025-11-21T10:20:01+02:00'
 draft = false
-title = 'Mesh_kokeiluja'
+title = 'Mesh-kokeiluja'
 tags = ["LoRa", "Meshtastic"]
 +++
 Olen äskettäin tehnyt runsaasti kokeiluja Meshtastic-laitteiden kanssa, etenkin LongFast- ja EdgeFastLow-asetusten kanssa. Yleisesti
