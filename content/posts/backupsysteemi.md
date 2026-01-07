@@ -1,6 +1,6 @@
 +++
 title = "Rakensin monikoneisen varmuuskopiointi- ja monitorointijärjestelmän (ja opin paljon enemmän kuin odotin)"
-date = 2026-01-07
+date = 2026-01-06
 tags = ["backup", "linux", "rsync", "rainmeter", "powershell", "homelab"]
 draft = false
 +++
