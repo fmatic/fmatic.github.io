@@ -80,13 +80,14 @@ Silti web-audio pysyi mykkänä.
 Ratkaiseva vihje löytyi komennolla:
 
 ```bash
-amixer -c 0
+amixer -c 0```
 
 Sieltä löytyi rivi, jota en ollut aluksi huomannut:
 
+```bash
 Simple mixer control 'PCM Capture Source',0
 Items: 'Microphone' 'Line In' 'Stereo Mix' 'Spdif Rx'
-Item0: 'Microphone'
+Item0: 'Microphone'```
 
 Se yksi väärä valinta
 
@@ -97,7 +98,8 @@ FM-DX-Webserver (ja FFmpeg) lukevat PCM-lähdettä, eivät yksittäisten faderie
 
 Yksi komento ratkaisi kaiken:
 
-amixer -c 0 set 'PCM Capture Source' 'Line In'
+```bash
+amixer -c 0 set 'PCM Capture Source' 'Line In'```
 
 Heti tämän jälkeen:
 
@@ -160,8 +162,3 @@ Kun sen vaihtoi:
 PCM Capture Source = Line In
 
 …kaikki alkoi toimia.
-Jatkuu…
-
-Tämä oli vasta alkua.
-
-
