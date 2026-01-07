@@ -108,9 +108,7 @@ amixer -c 0 set 'PCM Capture Source' 'Line In'
 Heti tämän jälkeen:
 
 - web-audio heräsi henkiin
-
 - ääni kuului selaimessa normaalisti
-
 - mitään muuta ei tarvinnut muuttaa
 
 
