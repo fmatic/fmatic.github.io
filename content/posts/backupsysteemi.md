@@ -2,7 +2,7 @@
 date = '2026-01-07T13:58:25+02:00'
 draft = false
 title = 'Rakensin monikoneisen varmuuskopiointi- ja monitorointijärjestelmän (ja opin paljon enemmän kuin odotin)'
-tags: ["backup", "linux", "rsync", "rainmeter", "powershell", "homelab"]
+tags: ["backup", "linux", "rsync", "rainmeter", "powershell", "homelab", "disasterproof"]
 +++
 
 ## Lähtötilanne
