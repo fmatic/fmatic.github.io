@@ -80,7 +80,8 @@ Silti web-audio pysyi mykkänä.
 Ratkaiseva vihje löytyi komennolla:
 
 ```bash
-amixer -c 0```
+amixer -c 0
+```
 
 Sieltä löytyi rivi, jota en ollut aluksi huomannut:
 
@@ -100,7 +101,8 @@ FM-DX-Webserver (ja FFmpeg) lukevat PCM-lähdettä, eivät yksittäisten faderie
 Yksi komento ratkaisi kaiken:
 
 ```bash
-amixer -c 0 set 'PCM Capture Source' 'Line In'```
+amixer -c 0 set 'PCM Capture Source' 'Line In'
+```
 
 Heti tämän jälkeen:
 
