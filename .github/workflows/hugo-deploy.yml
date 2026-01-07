@@ -16,7 +16,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          submodule_branch: master   # varmistaa, että submodule saa viimeisimmän commitin
+          
 
       # 2️⃣ Setup Hugo
       - name: Setup Hugo
