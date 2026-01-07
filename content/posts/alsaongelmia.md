@@ -104,6 +104,7 @@ Yksi komento ratkaisi kaiken:
 amixer -c 0 set 'PCM Capture Source' 'Line In'
 ```
 
+
 Heti tämän jälkeen:
 
 - web-audio heräsi henkiin
@@ -112,18 +113,14 @@ Heti tämän jälkeen:
 
 - mitään muuta ei tarvinnut muuttaa
 
----
 
 Miksi tämä on niin petollinen vika?
 
 Koska:
 
 - ALSA ei varoita
-
 - mikään ei kaadu
-
 - UI ei näytä virhettä
-
 - spektri elää normaalisti
 
 DSP näkee energiaa, mutta encoder tarvitsee oikean lähteen.
@@ -131,8 +128,7 @@ DSP näkee energiaa, mutta encoder tarvitsee oikean lähteen.
 Tämä on täysin analoginen tilanne sille, että:
 
 - IF-asteessa näkyy vahva signaali
-
--  mutta AF-vahvistin on mykkä
+- mutta AF-vahvistin on mykkä
 
 Vastaanotin ei ole rikki – audiopolku vain katkeaa yhdessä kohdassa.
 
@@ -141,9 +137,7 @@ Opetus: Linux-audiossa kaikki voi olla “melkein oikein” – ja silti täysin
 Erityisesti USB-äänikorteissa:
 
 - mikserit resetoituvat
-
 - lähdevalinnat unohtuvat
-
 - yksi väärä MUX-valinta riittää katkaisemaan koko ketjun
 
 Ja tämä tapahtuu hiljaa.
@@ -151,11 +145,8 @@ Ja tämä tapahtuu hiljaa.
 Yhteenveto:
 
 - Vika ei ollut kaapelissa
-
 - Vika ei ollut FFmpegissä
-
 - Vika ei ollut selaimessa
-
 - Vika ei ollut FM-DX-Webserverissä
 
 Vika oli yksi ALSA-valinta:
