@@ -21,7 +21,6 @@ Muita sivustojani:
 * https://www.heinikangas.info
 * https://www.vintageromppeet.fi
 * https://www.radioaktiiviset.info
-
 * Some-linkit löytyvät blogin alaosasta
 
 Resistance is a Futile!
