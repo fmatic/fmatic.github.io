@@ -186,4 +186,4 @@ Mutta juuri nyt tärkeintä on tämä:
 > Monitorointi toimii.  
 > Työpöytä on rauhallinen.**
 
-Ja se on yllättävän hyvä tunne.
+Ja se on yllättävän hyvä tunne!
