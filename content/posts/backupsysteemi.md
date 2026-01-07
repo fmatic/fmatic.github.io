@@ -1,8 +1,8 @@
 +++
-date = '2026-01-07T13:58:25+02:00'
+title = "Rakensin monikoneisen varmuuskopiointi- ja monitorointijärjestelmän (ja opin paljon enemmän kuin odotin)"
+date = 2026-01-07
+tags = ["backup", "linux", "rsync", "rainmeter", "powershell", "homelab"]
 draft = false
-title = 'Rakensin monikoneisen varmuuskopiointi- ja monitorointijärjestelmän (ja opin paljon enemmän kuin odotin)'
-tags: ["backup", "linux", "rsync", "rainmeter", "powershell", "homelab", "disasterproof"]
 +++
 
 ## Lähtötilanne
