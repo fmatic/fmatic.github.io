@@ -87,7 +87,8 @@ Sieltä löytyi rivi, jota en ollut aluksi huomannut:
 ```bash
 Simple mixer control 'PCM Capture Source',0
 Items: 'Microphone' 'Line In' 'Stereo Mix' 'Spdif Rx'
-Item0: 'Microphone'```
+Item0: 'Microphone'
+```
 
 Se yksi väärä valinta
 
