@@ -2,7 +2,7 @@
 date = '2026-01-10T14:28:58+02:00'
 draft = false
 title = 'Nts Note to Self'
-tags: ["linux", "cli", "bash", "productivity", "tools"]
+tags = ["linux", "cli", "bash", "productivity", "tools"]
 +++
 
 Monesti parhaat työkalut syntyvät omasta tarpeesta.
