@@ -1,0 +1,54 @@
+<!doctype html><html><head lang=en><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Alsaongelmia - fmatic's digital playground</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Kun kaikki näyttää toimivan – mutta ääntä ei kuulu
+Tämä on tarina tilanteesta, joka on varmasti tuttu monelle Linuxia, SDR:ää ja radiotekniikkaa harrastavalle.
+Kaikki näyttää toimivan:
+
+FM-DX-Webserver pyörii normaalisti
+selainliittymä toimii
+spektri elää
+signaalimittarit liikkuvat
+RDS dekoodautuu
+
+Mutta silti:
+
+Web-audio on täysin mykkä.
+
+Ei virheilmoituksia.
+Ei kaatumisia.
+Ei mitään selkeää vihjettä siitä, missä vika on.
+
+Ympäristö lyhyesti
+Kokoonpano oli seuraava:
+
+Raspberry Pi 3B+
+FM-DX-Webserver
+TEF668x-vastaanotin
+USB-äänikortti (ESI MAYA U5)
+Audio TEF:ltä line-inin kautta äänikortille
+ALSA + FFmpeg web-audiolle
+
+Kaikki oli aiemmin toiminut."><meta property="og:image" content><meta property="og:url" content="https://fmatic.github.io/posts/alsaongelmia/"><meta property="og:site_name" content="fmatic's digital playground"><meta property="og:title" content="Alsaongelmia"><meta property="og:description" content="Kun kaikki näyttää toimivan – mutta ääntä ei kuulu Tämä on tarina tilanteesta, joka on varmasti tuttu monelle Linuxia, SDR:ää ja radiotekniikkaa harrastavalle.
+Kaikki näyttää toimivan:
+FM-DX-Webserver pyörii normaalisti selainliittymä toimii spektri elää signaalimittarit liikkuvat RDS dekoodautuu Mutta silti:
+Web-audio on täysin mykkä.
+Ei virheilmoituksia.
+Ei kaatumisia.
+Ei mitään selkeää vihjettä siitä, missä vika on.
+Ympäristö lyhyesti Kokoonpano oli seuraava:
+Raspberry Pi 3B+ FM-DX-Webserver TEF668x-vastaanotin USB-äänikortti (ESI MAYA U5) Audio TEF:ltä line-inin kautta äänikortille ALSA + FFmpeg web-audiolle Kaikki oli aiemmin toiminut."><meta property="og:locale" content="fi_FI"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-12-14T12:34:43+02:00"><meta property="article:modified_time" content="2025-12-14T12:34:43+02:00"><meta property="article:tag" content="Linux"><meta property="article:tag" content="ALSA"><meta name=twitter:card content="summary"><meta name=twitter:title content="Alsaongelmia"><meta name=twitter:description content="Kun kaikki näyttää toimivan – mutta ääntä ei kuulu Tämä on tarina tilanteesta, joka on varmasti tuttu monelle Linuxia, SDR:ää ja radiotekniikkaa harrastavalle.
+Kaikki näyttää toimivan:
+FM-DX-Webserver pyörii normaalisti selainliittymä toimii spektri elää signaalimittarit liikkuvat RDS dekoodautuu Mutta silti:
+Web-audio on täysin mykkä.
+Ei virheilmoituksia.
+Ei kaatumisia.
+Ei mitään selkeää vihjettä siitä, missä vika on.
+Ympäristö lyhyesti Kokoonpano oli seuraava:
+Raspberry Pi 3B+ FM-DX-Webserver TEF668x-vastaanotin USB-äänikortti (ESI MAYA U5) Audio TEF:ltä line-inin kautta äänikortille ALSA + FFmpeg web-audiolle Kaikki oli aiemmin toiminut."><link rel=stylesheet href=https://fmatic.github.io/css/simple-icons.cc125cfd7958efc8dc27b5dfa6e2a9bbab933ce50b754f77e669e587c16ce857.css type=text/css><link href=https://fmatic.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css rel=stylesheet><link rel=stylesheet type=text/css media=screen href=https://fmatic.github.io/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css><link id=darkModeStyle rel=stylesheet type=text/css href=https://fmatic.github.io/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css></head><body><div class=content><header><div class=main><a href=https://fmatic.github.io/>fmatic's digital playground</a></div><nav><a href=/>Etusivu</a>
+<a href=/posts>Blogaukset</a>
+<a href=/about>Kuka?</a>
+<a href=/tags>Tags</a></nav></header><main><article><div class=post-container><div class=post-content><div class=title><h1 class=title>Alsaongelmia</h1><div class=meta>Posted on Dec 14, 2025</div></div><section class=body><h2 id=kun-kaikki-näyttää-toimivan--mutta-ääntä-ei-kuulu>Kun kaikki näyttää toimivan – mutta ääntä ei kuulu</h2><p>Tämä on tarina tilanteesta, joka on varmasti tuttu monelle Linuxia, SDR:ää ja radiotekniikkaa harrastavalle.</p><p>Kaikki <strong>näyttää</strong> toimivan:</p><ul><li>FM-DX-Webserver pyörii normaalisti</li><li>selainliittymä toimii</li><li>spektri elää</li><li>signaalimittarit liikkuvat</li><li>RDS dekoodautuu</li></ul><p>Mutta silti:</p><blockquote><p><strong>Web-audio on täysin mykkä.</strong></p></blockquote><p>Ei virheilmoituksia.<br>Ei kaatumisia.<br>Ei mitään selkeää vihjettä siitä, missä vika on.</p><hr><h2 id=ympäristö-lyhyesti>Ympäristö lyhyesti</h2><p>Kokoonpano oli seuraava:</p><ul><li>Raspberry Pi 3B+</li><li>FM-DX-Webserver</li><li>TEF668x-vastaanotin</li><li>USB-äänikortti (ESI MAYA U5)</li><li>Audio TEF:ltä line-inin kautta äänikortille</li><li>ALSA + FFmpeg web-audiolle</li></ul><p>Kaikki oli aiemmin toiminut.</p><hr><h2 id=ensimmäinen-harhapolku-spektri-elää-joten-audiokin-on-kunnossa>Ensimmäinen harhapolku: “Spektri elää, joten audiokin on kunnossa”</h2><p>Tämä on se oletus, johon moni – myös kokenut harrastaja – sortuu.</p><p>Jos spektri elää ja tasomittarit liikkuvat, <strong>signaaliahan siellä on</strong>.<br>Ja se pitää paikkansa.</p><p>Mutta se ei tarkoita, että <strong>encoder saa oikeaa audiota</strong>.</p><p>FM-DX-Webserverissä on kaksi eri maailmaa:</p><ol><li><p><strong>DSP / analyysi</strong></p><ul><li>spektri</li><li>signaalitasot</li><li>RDS-dekoodaus</li></ul></li><li><p><strong>Web-audio / encoder</strong></p><ul><li>FFmpeg</li><li>MP3 / Opus</li><li>selaimen WebAudio</li></ul></li></ol><p>Nämä eivät ole sama audiopolku.</p><hr><h2 id=alsan-hiljainen-ansa>ALSA:n hiljainen ansa</h2><p>Kaikki mikserisäädöt näyttivät oikeilta:</p><ul><li>Line In capture päällä</li><li>gainit kohdallaan</li><li>mikrofoni mykistetty</li><li>mitään ei ollut mutella</li></ul><p>Silti web-audio pysyi mykkänä.</p><p>Ratkaiseva vihje löytyi komennolla:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>amixer -c <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>Sieltä löytyi rivi, jota en ollut aluksi huomannut:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>Simple mixer control <span style=color:#e6db74>&#39;PCM Capture Source&#39;</span>,0
+</span></span><span style=display:flex><span>Items: <span style=color:#e6db74>&#39;Microphone&#39;</span> <span style=color:#e6db74>&#39;Line In&#39;</span> <span style=color:#e6db74>&#39;Stereo Mix&#39;</span> <span style=color:#e6db74>&#39;Spdif Rx&#39;</span>
+</span></span><span style=display:flex><span>Item0: <span style=color:#e6db74>&#39;Microphone&#39;</span>
+</span></span></code></pre></div><p>Se yksi väärä valinta</p><p>Vaikka Line In oli capture-tilassa aktiivinen ja gainit auki,
+PCM Capture Source osoitti silti Microphoneen.</p><p>FM-DX-Webserver (ja FFmpeg) lukevat PCM-lähdettä, eivät yksittäisten faderien tilaa.</p><p>Yksi komento ratkaisi kaiken:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>amixer -c <span style=color:#ae81ff>0</span> set <span style=color:#e6db74>&#39;PCM Capture Source&#39;</span> <span style=color:#e6db74>&#39;Line In&#39;</span>
+</span></span></code></pre></div><p>Heti tämän jälkeen:</p><ul><li>web-audio heräsi henkiin</li><li>ääni kuului selaimessa normaalisti</li><li>mitään muuta ei tarvinnut muuttaa</li></ul><p>Miksi tämä on niin petollinen vika?</p><p>Koska:</p><ul><li>ALSA ei varoita</li><li>mikään ei kaadu</li><li>UI ei näytä virhettä</li><li>spektri elää normaalisti</li></ul><p>DSP näkee energiaa, mutta encoder tarvitsee oikean lähteen.</p><p>Tämä on täysin analoginen tilanne sille, että:</p><ul><li>IF-asteessa näkyy vahva signaali</li><li>mutta AF-vahvistin on mykkä</li></ul><p>Vastaanotin ei ole rikki – audiopolku vain katkeaa yhdessä kohdassa.</p><p>Opetus: Linux-audiossa kaikki voi olla “melkein oikein” – ja silti täysin mykkää.</p><p>Erityisesti USB-äänikorteissa:</p><ul><li>mikserit resetoituvat</li><li>lähdevalinnat unohtuvat</li><li>yksi väärä MUX-valinta riittää katkaisemaan koko ketjun</li></ul><p>Ja tämä tapahtuu hiljaa.</p><p>Yhteenveto:</p><ul><li>Vika ei ollut kaapelissa</li><li>Vika ei ollut FFmpegissä</li><li>Vika ei ollut selaimessa</li><li>Vika ei ollut FM-DX-Webserverissä</li></ul><p>Vika oli yksi ALSA-valinta:</p><p>PCM Capture Source = Microphone</p><p>Kun sen vaihtoi:</p><p>PCM Capture Source = Line In</p><p>…kaikki alkoi toimia. Murphyn lain mukaisesti. Tuntien tunkkaus ja ratkaisu ihan nenän edessedessä!</p></section><div class=post-tags><nav class="nav tags"><ul class=tags><li><a href=/tags/linux>Linux</a></li><li><a href=/tags/alsa>ALSA</a></li></ul></nav></div></div></div></article></main><footer><div style=display:flex><a class=soc href=https://github.com/fmatic rel=me title=GitHub><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github"/></svg></a><a class=border></a><a class=soc href=https://twitter.com/JanneDX rel=me title=Twitter><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#twitter"/></svg></a><a class=border></a><a class=soc href=https://www.instagram.com/heinikangas rel=me title=Instagram><svg class="feather"><use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#instagram"/></svg></a><a class=border></a><a class=soc href=https://mastodontti.fi/@heinikangas rel=me title=Mastodon><i class="si si-mastodon"></i></a><a class=border></a></div><div class=footer-info>2026 © fmatic | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></footer></div></body></html>

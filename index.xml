@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fmatic's digital playground</title><link>https://fmatic.github.io/</link><description>Recent content on fmatic's digital playground</description><generator>Hugo</generator><language>fi-FI</language><copyright>© fmatic</copyright><lastBuildDate>Sat, 10 Jan 2026 14:28:58 +0200</lastBuildDate><atom:link href="https://fmatic.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Nts Note to Self</title><link>https://fmatic.github.io/posts/nts-note-to-self/</link><pubDate>Sat, 10 Jan 2026 14:28:58 +0200</pubDate><guid>https://fmatic.github.io/posts/nts-note-to-self/</guid><description>&lt;p&gt;Monesti parhaat työkalut syntyvät omasta tarpeesta.&lt;/p&gt;
+&lt;p&gt;Halusin Linux-komentoriville &lt;strong&gt;yksinkertaisen mutta järkevän tavan&lt;/strong&gt; kirjata
+&lt;em&gt;”työn alla olevia asioita”&lt;/em&gt; – ilman tietokantoja, pilvipalveluja tai raskaita
+todo-sovelluksia.&lt;/p&gt;
+&lt;p&gt;Näin syntyi &lt;strong&gt;NTS – Note To Self&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-mikä-on-nts"&gt;🧠 Mikä on NTS?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;NTS&lt;/strong&gt; on pieni komentorivityökalu, jolla voi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lisätä muistiinpanoja suoraan terminaalista&lt;/li&gt;
+&lt;li&gt;pitää kirjaa työn alla olevista asioista&lt;/li&gt;
+&lt;li&gt;merkitä tehtäviä valmiiksi&lt;/li&gt;
+&lt;li&gt;käyttää tageja vapaasti (&lt;code&gt;#linux&lt;/code&gt;, &lt;code&gt;#backup&lt;/code&gt;, &lt;code&gt;#radio&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;listata tehtäviä suodattimilla&lt;/li&gt;
+&lt;li&gt;lukea ja muokata kaikkea Markdownina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kaikki data tallennetaan &lt;strong&gt;yhteen tiedostoon&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>rsync snapshot -varmuuskopiointi käytännössä: --link-dest, retention ja sudenkuopat</title><link>https://fmatic.github.io/posts/rsyncbackup/</link><pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate><guid>https://fmatic.github.io/posts/rsyncbackup/</guid><description>&lt;h2 id="miksi-rsync-snapshotteihin"&gt;Miksi rsync snapshotteihin?&lt;/h2&gt;
+&lt;p&gt;Moni ajattelee varmuuskopiointia kahdella tavalla:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;joko kopioidaan kaikki aina uudestaan&lt;/li&gt;
+&lt;li&gt;tai luotetaan johonkin mustaan laatikkoon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;rsync&lt;/code&gt; tarjoaa kolmannen vaihtoehdon:
+&lt;strong&gt;yksinkertaisen, läpinäkyvän ja tehokkaan snapshot-mallin&lt;/strong&gt;, joka ei vaadi erikoistyökaluja.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="perusidea-lyhyesti"&gt;Perusidea lyhyesti&lt;/h2&gt;
+&lt;p&gt;Snapshot-mallissa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;jokainen varmuuskopiointi näyttää täydeltä kopiolta&lt;/li&gt;
+&lt;li&gt;todellisuudessa vain muuttuneet tiedostot vievät tilaa&lt;/li&gt;
+&lt;li&gt;muuttumattomat tiedostot ovat &lt;strong&gt;kovia linkkejä&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tämä saavutetaan &lt;code&gt;--link-dest&lt;/code&gt;-valitsimella.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="hakemistorakenne"&gt;Hakemistorakenne&lt;/h2&gt;
+&lt;p&gt;Yksi kone, yksi rakenne:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;backups/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;└── host1/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── 2026-01-05/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ├── 2026-01-06/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; └── latest -&amp;gt; 2026-01-06/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;jokainen päivä on oma snapshot&lt;/p&gt;</description></item><item><title>Rakensin monikoneisen varmuuskopiointi- ja monitorointijärjestelmän (ja opin paljon enemmän kuin odotin)</title><link>https://fmatic.github.io/posts/backupsysteemi/</link><pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate><guid>https://fmatic.github.io/posts/backupsysteemi/</guid><description>&lt;h2 id="lähtötilanne"&gt;Lähtötilanne&lt;/h2&gt;
+&lt;p&gt;Kotiverkossani pyörii useita Linux-koneita eri tehtävissä:&lt;br&gt;
+Raspberry Pi -palvelimia, yksi MiniPC, yksi Debian-pohjainen pääkone sekä Windows-työpöytä.&lt;/p&gt;
+&lt;p&gt;Koneet tekevät asioita, jotka &lt;strong&gt;eivät saa mennä rikki&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenWebRX&lt;/li&gt;
+&lt;li&gt;FM-DX-palvelimia&lt;/li&gt;
+&lt;li&gt;ADS-B&lt;/li&gt;
+&lt;li&gt;musiikkipalvelu&lt;/li&gt;
+&lt;li&gt;blogi ja kehitysympäristö&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yksi asia kuitenkin puuttui:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Yhtenäinen varmuuskopiointi – ja ennen kaikkea näkyvyys siihen, että se oikeasti toimii.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="varmuuskopioinnin-perusta"&gt;Varmuuskopioinnin perusta&lt;/h2&gt;
+&lt;p&gt;Varsinainen backup-ratkaisu syntyi melko suoraviivaisesti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yksi keskuskone varmuuskopioille&lt;/li&gt;
+&lt;li&gt;SSH-yhteys kaikkiin koneisiin&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsync&lt;/code&gt; ja snapshotit (&lt;code&gt;--link-dest&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;ajastus cronilla&lt;/li&gt;
+&lt;li&gt;retention (esim. 30 päivää)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Periaatteet olivat selkeät:&lt;/p&gt;</description></item><item><title>Alsaongelmia</title><link>https://fmatic.github.io/posts/alsaongelmia/</link><pubDate>Sun, 14 Dec 2025 12:34:43 +0200</pubDate><guid>https://fmatic.github.io/posts/alsaongelmia/</guid><description>&lt;h2 id="kun-kaikki-näyttää-toimivan--mutta-ääntä-ei-kuulu"&gt;Kun kaikki näyttää toimivan – mutta ääntä ei kuulu&lt;/h2&gt;
+&lt;p&gt;Tämä on tarina tilanteesta, joka on varmasti tuttu monelle Linuxia, SDR:ää ja radiotekniikkaa harrastavalle.&lt;/p&gt;
+&lt;p&gt;Kaikki &lt;strong&gt;näyttää&lt;/strong&gt; toimivan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FM-DX-Webserver pyörii normaalisti&lt;/li&gt;
+&lt;li&gt;selainliittymä toimii&lt;/li&gt;
+&lt;li&gt;spektri elää&lt;/li&gt;
+&lt;li&gt;signaalimittarit liikkuvat&lt;/li&gt;
+&lt;li&gt;RDS dekoodautuu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mutta silti:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Web-audio on täysin mykkä.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ei virheilmoituksia.&lt;br&gt;
+Ei kaatumisia.&lt;br&gt;
+Ei mitään selkeää vihjettä siitä, missä vika on.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="ympäristö-lyhyesti"&gt;Ympäristö lyhyesti&lt;/h2&gt;
+&lt;p&gt;Kokoonpano oli seuraava:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi 3B+&lt;/li&gt;
+&lt;li&gt;FM-DX-Webserver&lt;/li&gt;
+&lt;li&gt;TEF668x-vastaanotin&lt;/li&gt;
+&lt;li&gt;USB-äänikortti (ESI MAYA U5)&lt;/li&gt;
+&lt;li&gt;Audio TEF:ltä line-inin kautta äänikortille&lt;/li&gt;
+&lt;li&gt;ALSA + FFmpeg web-audiolle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kaikki oli aiemmin toiminut.&lt;/p&gt;</description></item><item><title>Mesh-kokeiluja</title><link>https://fmatic.github.io/posts/mesh_kokeiluja/</link><pubDate>Fri, 21 Nov 2025 10:20:01 +0200</pubDate><guid>https://fmatic.github.io/posts/mesh_kokeiluja/</guid><description>&lt;p&gt;Olen äskettäin tehnyt runsaasti kokeiluja Meshtastic-laitteiden kanssa, etenkin LongFast- ja EdgeFastLow-asetusten kanssa. Yleisesti
+käytössä on LongFast-asetus, joka ei ole aivan niitä parhaimpia asetuksia suhteellisen ruuhkaisella bandilla, jossa oletuksena on
+monenlaista LoRa-laitetta sähkömittareista etäohjattaviin valoihin.&lt;/p&gt;
+&lt;p&gt;Käytännön kokeissa olen bussimatkalla Kangaslammelta Tourulaan (n.6km) ja siitä pienen kävelymatkan Kankaalle kuskannut mukanani
+kannettavaa Meshtastic-laitetta ja tehnyt yhteyskokeiluita omaan tukiasemaan LF- ja EFL-asetuksilla. Päivästä riippuen LF-asetuksilla
+kantomatka jää n. 2km ja välillä jopa alle, kun taas EFL-asetuksilla hyvänä päivänä 2way-yhteys onnistuu lähes 6km päähän. Nämä n. 2 viikon
+päivittäiset testit osoittaa, että juurikin EFL olisi paras asetus ruuhkaiselle bandille. Toivotaan, että tämä asetus yleistyisi suomessa
+kaikkialla ja saataisiin tänne Jyväskylään lisää nodeja.&lt;/p&gt;</description></item><item><title>Meshtastic</title><link>https://fmatic.github.io/posts/meshtastics/</link><pubDate>Tue, 11 Nov 2025 22:51:51 +0200</pubDate><guid>https://fmatic.github.io/posts/meshtastics/</guid><description>&lt;p&gt;Viime aikoina olen monen muun projektin lisäksi puuhastellut pienten LoRa-laitteiden parissa. Etenkin Meshtastic-projektin parissa, joka siis on
+avoimen lähdekoodin hajautettu mesh-verkko, joka on suunniteltu toimimaan vähän virtaa kuluttavilla laitteilla -&amp;gt; lisää aiheesta osoitteessa
+&lt;a href="https://www.meshabout.fi/"&gt;MeshAbout.fi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jyväskylän, Kangaslammella minulla on oma &amp;ldquo;basenode&amp;rdquo; eli kiinteä node; Vadelma Base (VDLM), jonka sydämenä hyrrää LILYGO T-LoRa V2.1-1.6 ja erilinen
+ulkoantenni. Asustelen kerrostalon viidennessä, ylimmässä kerroksessa (ASL n.160) joten tällä tavoin saan katettua verkkoa varsin kohtuullisesti.
+Toisena laitteena on Vadelma Portable (VDL2), jonka sydämenä sykkii Heltec V3. Tämä aparaatti kulkee aina matkassa missä päin kulloinkin liikun.&lt;/p&gt;</description></item><item><title>Hugo asennettu</title><link>https://fmatic.github.io/posts/hugo-up/</link><pubDate>Tue, 11 Nov 2025 18:20:01 +0200</pubDate><guid>https://fmatic.github.io/posts/hugo-up/</guid><description>&lt;p&gt;Tulipa pitkästä aikaa asennettua Hugo blogausalustaksi. Tänne julkaisen blogauksia, jotka eivät aiheensa puolesta sovi muihin blogeihini.
+Olet tervetullut! Resistance is a futile!&lt;/p&gt;</description></item><item><title>Kuka ihmeen fmatic?</title><link>https://fmatic.github.io/about/</link><pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate><guid>https://fmatic.github.io/about/</guid><description>&lt;p&gt;Tervetuloa yllekirjoittaneen digitaalisen temmellyskentttään. Tämä sivusto on toteutettu Hugolla, joka on avoimen lähdekoodin stattisten sivustojen generaattori -&amp;gt; &lt;a href="https://github.com/gohugoio/hugo/blob/master/LICENSE"&gt;Apache Licence 2.0.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sananen sivuston ylläpitäjästä:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fmatic a.k.a. Janne Heinikangas&lt;/li&gt;
+&lt;li&gt;Sijainti: Jyväskylä&lt;/li&gt;
+&lt;li&gt;Muuta mainittavaa: Radioharrastaja. Tunnetaan siellä täällä nimimerkillä JJH ja OH6-201&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Muita sivustojani:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.fmdx.online"&gt;https://www.fmdx.online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dxing.world"&gt;https://dxing.world&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.com64.net"&gt;https://www.com64.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.heinikangas.info"&gt;https://www.heinikangas.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.vintageromppeet.fi"&gt;https://www.vintageromppeet.fi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.radioaktiiviset.info"&gt;https://www.radioaktiiviset.info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some-linkit löytyvät blogin alaosasta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Resistance is a Futile!&lt;/p&gt;
+&lt;p&gt;Learn more about Hugo and contribute on &lt;a href="https://github.com/gohugoio"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description></item><item><title/><link>https://fmatic.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://fmatic.github.io/archives/</guid><description/></item></channel></rss>
