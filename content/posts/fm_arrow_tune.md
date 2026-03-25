@@ -1,8 +1,8 @@
 +++
-title: "FM Arrow Tune: ensimmäinen SDR# pluginini"
-date: 2026-03-23T03:45:00+02:00
-draft: false
-tags: ["sdr", "sdrsharp", "airspy", "fm", "plugin", "radio", "kehitys"]
+title = 'FM Arrow Tune: ensimmäinen SDR# pluginini'
+date = 2026-03-23T03:45:00+02:00
+draft = false
+tags = ["sdr", "sdrsharp", "airspy", "fm", "plugin", "radio", "kehitys"]
 +++
 
 ## Pieni mutta yllättävän hyödyllinen lisä SDR#:ään
