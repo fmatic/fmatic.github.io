@@ -2,7 +2,7 @@
 date = '2026-03-30T02:44:43+03:00'
 draft = true
 title = 'FM Arrow Tune: From simple tuning to real scanning (v0.1.0 → v0.3.0)'
-tags = ["sdr", "radio", "fm-dx", "sdrsharp", "plugin"9
+tags = ["sdr", "radio", "fm-dx", "sdrsharp", "plugin"]
 +++
 ## Overview
 
