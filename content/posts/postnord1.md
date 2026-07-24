@@ -33,9 +33,9 @@ Eihän tuossa ole järjen häivääkään! Commodore.net on lähettänyt tuottee
 
 Paketti kulki huikealla nopeudella ihan muutamassa päivästä DPD:n toimesta suomeen, mutta siinä vaiheessa kun se annettiin PostNordin käsiin alkoi täydellinen sekoilu. Laite oli perillä suomessa muutamassa päivässä, mutta nämä sankarit kiikutti sitä pakettia 4 päivää ja pisteenä i:n päälle ovat tehneet jotain omatoimisia uudelleenpakkauksia ja sotkeneet lähetykset 🤦🏻‍♂️
 
-Post Nordin chatissa allekirjoittaneella jo pikkasen paloivat hihat ja kyselin, että miten tämä on edes mahdollista? Alla asiakaspalvelijan vastaus.
+PostNordin chatissa allekirjoittaneella jo pikkasen paloivat hihat ja kyselin, että miten tämä on edes mahdollista? Alla asiakaspalvelijan vastaus.
 
-![Vuoden asiakaspalvelija](https://postimg.cc/k6jHN4B7)
+![Vuoden asiakaspalvelija](/home/dietpi/blog/fmatic.github.io/public/images/postnord.jpg)
 
 ”Anteeksi miten minä voisin sen tietää”? Voi isäkissan elimet! Minunko se sitten saatana pitäis tietää 🤦 Tälle asiakaspalvelun huippuyksilölle pitäis ihan antaa jonkin sortin vuoden asiakaspalvelijatitteli! Eiköhän tuokin ihmisriekale ole ihan kyseisen sekoilvean TanskalaisRuotsalaisen kioskin palveluksessa? Jos et tiedä niin ota ihan saatanan raivolla selvää ja opettele asiakaspalvelun alkeet!
 Tällä hetkellä PostNordia kiinnostaa enemmän saada nuo jonkun toisen ihmisen lenkkarit takaisin kuin etsiä mun melkein 400€ Commodore 64 Ultimate, sillä niin puhelimessa, chatissa kuin
