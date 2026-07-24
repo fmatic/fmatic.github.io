@@ -37,7 +37,10 @@ PostNordin chatissa allekirjoittaneella jo pikkasen paloivat hihat ja kyselin, e
 
 ![Vuoden asiakaspalvelija](/images/postnord/postnord.jpg)
 
-”Anteeksi miten minä voisin sen tietää”? Etpä tietenkään! Kuinka sinä kyseisen kioskin palkollinen voisit edes koettaa selvittää
+”Anteeksi miten minä voisin sen tietää”? No shit, Sherlock! Teillä ei osata saatana lukea, saati kirjoittaa
+kun ihmisten paketit sekoitetaan eikä asiakaspalvelulla ole muuta kykyä kuin vittuilla. Osuiko vuoroon sellaiset työntekijät, jotka osas
+kirjoittaa eikä lukea? Olishan se jännä, jos kyseisen kioskin palkollinen vaivautuisi vittuilun sijaan ottaa selvää. Tosin perkele kahvitauko puskee päälle
+ja tämä oli niin traumaattinen asiakaskohtaaminen, että ehkä pidämme jonkun haliterapia ryhmän ja puramme kokemuksen! Ihan siis järettömän paljon ottaa hermorakenteeseen tällaiser ihmiset. Saatana miltä kuulostais, kun kahvilassa asiakas kysyis, että anteeksi onko tämä pulla gluteeniton, niin kassahenkilö vastais: "Mistäs minä sen tietäisin"? Helvetti kaikenlaisia sitä päästetäänkin töihin asiakaspalveluun!
 mitä on tapahtunut. Voi isäkissan elimet! Minunko se sitten saatana pitäis tietää 🤦 Tälle asiakaspalvelun huippuyksilölle pitäis ihan antaa jonkin sortin vuoden asiakaspalvelijatitteli! Eiköhän tuokin ihmisriekale ole ihan kyseisen sekoilvean TanskalaisRuotsalaisen kioskin palveluksessa? Jos et tiedä niin ota ihan saatanan raivolla selvää ja opettele asiakaspalvelun alkeet!
 Tällä hetkellä PostNordia kiinnostaa enemmän saada nuo jonkun toisen ihmisen lenkkarit takaisin kuin etsiä mun melkein 400€ Commodore 64 Ultimate, sillä niin puhelimessa, chatissa kuin
 sähköpostillakin on pyydetty kenkien palautusta.
