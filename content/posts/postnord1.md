@@ -35,7 +35,7 @@ Paketti kulki huikealla nopeudella ihan muutamassa päivästä DPD:n toimesta su
 
 PostNordin chatissa allekirjoittaneella jo pikkasen paloivat hihat ja kyselin, että miten tämä on edes mahdollista? Alla asiakaspalvelijan vastaus.
 
-![Vuoden asiakaspalvelija](/images/postnord.jpg)
+![Vuoden asiakaspalvelija](/images/postnord/postnord.jpg)
 
 ”Anteeksi miten minä voisin sen tietää”? Voi isäkissan elimet! Minunko se sitten saatana pitäis tietää 🤦 Tälle asiakaspalvelun huippuyksilölle pitäis ihan antaa jonkin sortin vuoden asiakaspalvelijatitteli! Eiköhän tuokin ihmisriekale ole ihan kyseisen sekoilvean TanskalaisRuotsalaisen kioskin palveluksessa? Jos et tiedä niin ota ihan saatanan raivolla selvää ja opettele asiakaspalvelun alkeet!
 Tällä hetkellä PostNordia kiinnostaa enemmän saada nuo jonkun toisen ihmisen lenkkarit takaisin kuin etsiä mun melkein 400€ Commodore 64 Ultimate, sillä niin puhelimessa, chatissa kuin
