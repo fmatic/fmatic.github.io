@@ -2,7 +2,7 @@
 date = '2026-07-25T00:39:36+03:00'
 draft = false
 title = 'PostNord on perseestä!'
-tags = ["PostNord"], [Commodore 64 Ultimate], ["DPD"], ["Uudelleenpakkaus"], ["Paska Asiakaspalvelu"]
+tags = ["PostNord", "Commodore 64 Ultimate", "DPD", "Uudelleenpakkaus", "Paska Asiakaspalvelu"]
 +++
 
 ## Kun Commodore muuttui lenkkareiksi
