@@ -37,9 +37,10 @@ PostNordin chatissa allekirjoittaneella jo pikkasen paloivat hihat ja kyselin, e
 
 ![Vuoden asiakaspalvelija](/images/postnord/postnord.jpg)
 
-”Anteeksi miten minä voisin sen tietää”? Voi isäkissan elimet! Minunko se sitten saatana pitäis tietää 🤦 Tälle asiakaspalvelun huippuyksilölle pitäis ihan antaa jonkin sortin vuoden asiakaspalvelijatitteli! Eiköhän tuokin ihmisriekale ole ihan kyseisen sekoilvean TanskalaisRuotsalaisen kioskin palveluksessa? Jos et tiedä niin ota ihan saatanan raivolla selvää ja opettele asiakaspalvelun alkeet!
+”Anteeksi miten minä voisin sen tietää”? Etpä tietenkään! Kuinka sinä kyseisen kioskin palkollinen voisit edes koettaa selvittää
+mitä on tapahtunut. Voi isäkissan elimet! Minunko se sitten saatana pitäis tietää 🤦 Tälle asiakaspalvelun huippuyksilölle pitäis ihan antaa jonkin sortin vuoden asiakaspalvelijatitteli! Eiköhän tuokin ihmisriekale ole ihan kyseisen sekoilvean TanskalaisRuotsalaisen kioskin palveluksessa? Jos et tiedä niin ota ihan saatanan raivolla selvää ja opettele asiakaspalvelun alkeet!
 Tällä hetkellä PostNordia kiinnostaa enemmän saada nuo jonkun toisen ihmisen lenkkarit takaisin kuin etsiä mun melkein 400€ Commodore 64 Ultimate, sillä niin puhelimessa, chatissa kuin
-sähköpostillakij on pyydetty kenkien palautusta.
+sähköpostillakin on pyydetty kenkien palautusta.
 
 
 Pidän saatana huolen etten ikkään tilaa mitään PostNordin kautta, jos tätä haista kaavittua lafkaa mitenkään vain suinkin voin välttää!!!
