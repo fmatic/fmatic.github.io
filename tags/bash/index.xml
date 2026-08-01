@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on fmatic's digital playground</title><link>https://fmatic.github.io/tags/bash/</link><description>Recent content in Bash on fmatic's digital playground</description><generator>Hugo</generator><language>fi-FI</language><copyright>© fmatic</copyright><lastBuildDate>Sat, 10 Jan 2026 14:28:58 +0200</lastBuildDate><atom:link href="https://fmatic.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Nts Note to Self</title><link>https://fmatic.github.io/posts/nts-note-to-self/</link><pubDate>Sat, 10 Jan 2026 14:28:58 +0200</pubDate><guid>https://fmatic.github.io/posts/nts-note-to-self/</guid><description>&lt;p&gt;Monesti parhaat työkalut syntyvät omasta tarpeesta.&lt;/p&gt;
+&lt;p&gt;Halusin Linux-komentoriville &lt;strong&gt;yksinkertaisen mutta järkevän tavan&lt;/strong&gt; kirjata
+&lt;em&gt;”työn alla olevia asioita”&lt;/em&gt; – ilman tietokantoja, pilvipalveluja tai raskaita
+todo-sovelluksia.&lt;/p&gt;
+&lt;p&gt;Näin syntyi &lt;strong&gt;NTS – Note To Self&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-mikä-on-nts"&gt;🧠 Mikä on NTS?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;NTS&lt;/strong&gt; on pieni komentorivityökalu, jolla voi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lisätä muistiinpanoja suoraan terminaalista&lt;/li&gt;
+&lt;li&gt;pitää kirjaa työn alla olevista asioista&lt;/li&gt;
+&lt;li&gt;merkitä tehtäviä valmiiksi&lt;/li&gt;
+&lt;li&gt;käyttää tageja vapaasti (&lt;code&gt;#linux&lt;/code&gt;, &lt;code&gt;#backup&lt;/code&gt;, &lt;code&gt;#radio&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;listata tehtäviä suodattimilla&lt;/li&gt;
+&lt;li&gt;lukea ja muokata kaikkea Markdownina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kaikki data tallennetaan &lt;strong&gt;yhteen tiedostoon&lt;/strong&gt;:&lt;/p&gt;</description></item></channel></rss>

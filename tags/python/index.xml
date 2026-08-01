@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on fmatic's digital playground</title><link>https://fmatic.github.io/tags/python/</link><description>Recent content in Python on fmatic's digital playground</description><generator>Hugo</generator><language>fi-FI</language><copyright>© fmatic</copyright><lastBuildDate>Thu, 14 May 2026 14:01:08 +0300</lastBuildDate><atom:link href="https://fmatic.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Building VadelmaSky.live — From a Simple Idea to a Living ADS-B Dashboard</title><link>https://fmatic.github.io/posts/vadelmasky/</link><pubDate>Thu, 14 May 2026 14:01:08 +0300</pubDate><guid>https://fmatic.github.io/posts/vadelmasky/</guid><description>&lt;p&gt;There are projects that begin with a detailed masterplan.&lt;/p&gt;
+&lt;p&gt;And then there are projects like VadelmaSky.&lt;/p&gt;
+&lt;p&gt;A simple idea:
+“What if I built my own lightweight aircraft tracking page from local ADS-B reception?”&lt;/p&gt;
+&lt;p&gt;That single thought slowly evolved into a surprisingly polished live aviation dashboard powered entirely by local SDR receivers.&lt;/p&gt;
+&lt;h3 id="the-beginning"&gt;The Beginning&lt;/h3&gt;
+&lt;p&gt;The original goal was intentionally simple:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read aircraft data from readsb&lt;/li&gt;
+&lt;li&gt;Save daily logs&lt;/li&gt;
+&lt;li&gt;Generate static HTML&lt;/li&gt;
+&lt;li&gt;Publish automatically to GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The system was built around:&lt;/p&gt;</description></item></channel></rss>

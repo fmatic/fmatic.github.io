@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fm-Dx on fmatic's digital playground</title><link>https://fmatic.github.io/tags/fm-dx/</link><description>Recent content in Fm-Dx on fmatic's digital playground</description><generator>Hugo</generator><language>fi-FI</language><copyright>© fmatic</copyright><lastBuildDate>Mon, 30 Mar 2026 02:55:48 +0300</lastBuildDate><atom:link href="https://fmatic.github.io/tags/fm-dx/index.xml" rel="self" type="application/rss+xml"/><item><title>FM Arrow Tune: yksinkertaisesta virityksestä oikeaksi skannaukseksi (v0.1.0 → v0.3.0)</title><link>https://fmatic.github.io/posts/fm-arrow-tune-030-fin/</link><pubDate>Mon, 30 Mar 2026 02:55:48 +0300</pubDate><guid>https://fmatic.github.io/posts/fm-arrow-tune-030-fin/</guid><description>&lt;h2 id="yleiskatsaus"&gt;Yleiskatsaus&lt;/h2&gt;
+&lt;p&gt;FM Arrow Tune sai alkunsa pienestä käyttömukavuusparannuksesta SDR#:lle.&lt;/p&gt;
+&lt;p&gt;Alkuperäinen idea oli yksinkertainen:&lt;br&gt;
+tehdä FM-bandin selaamisesta nopeampaa ja luonnollisempaa nuolinäppäimillä.&lt;/p&gt;
+&lt;p&gt;Hyvin nopeasti projekti kuitenkin kasvoi paljon pidemmälle — kevyeksi skannaus- ja DX-työkaluksi.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="miksi-tein-tämän"&gt;Miksi tein tämän&lt;/h2&gt;
+&lt;p&gt;Käytän SDR#:ää usein etänä Splashtopin kautta iPadilla.&lt;br&gt;
+Virtuaaliset nuolinäppäimet paljastivat nopeasti, kuinka kätevää näppäimistöpohjainen viritys voi olla.&lt;/p&gt;
+&lt;p&gt;Taajuuksien klikkailu tai käsin syöttäminen tuntui hitaalta.&lt;br&gt;
+Nuolinäppäimet tuntuivat luonnollisilta.&lt;/p&gt;
+&lt;p&gt;Siitä tämä lähti.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="v010--alku"&gt;v0.1.0 — Alku&lt;/h2&gt;
+&lt;p&gt;Ensimmäinen versio oli tarkoituksella yksinkertainen:&lt;/p&gt;</description></item><item><title>FM Arrow Tune: From simple tuning to real scanning (v0.1.0 → v0.3.0)</title><link>https://fmatic.github.io/posts/fm-arrow-tune-030/</link><pubDate>Mon, 30 Mar 2026 02:44:43 +0300</pubDate><guid>https://fmatic.github.io/posts/fm-arrow-tune-030/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;FM Arrow Tune started as a small quality-of-life improvement for SDR#.&lt;/p&gt;
+&lt;p&gt;The original goal was simple:&lt;br&gt;
+make FM band browsing faster and more intuitive using keyboard arrow keys.&lt;/p&gt;
+&lt;p&gt;Very quickly, the idea evolved into something much more powerful — a lightweight scanning and DX tool.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="why-i-built-this"&gt;Why I built this&lt;/h2&gt;
+&lt;p&gt;I often use SDR# remotely via Splashtop on an iPad.&lt;br&gt;
+The virtual arrow keys made it obvious how convenient keyboard-based tuning could be.&lt;/p&gt;</description></item></channel></rss>

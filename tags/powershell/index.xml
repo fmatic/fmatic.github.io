@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powershell on fmatic's digital playground</title><link>https://fmatic.github.io/tags/powershell/</link><description>Recent content in Powershell on fmatic's digital playground</description><generator>Hugo</generator><language>fi-FI</language><copyright>© fmatic</copyright><lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fmatic.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Rakensin monikoneisen varmuuskopiointi- ja monitorointijärjestelmän (ja opin paljon enemmän kuin odotin)</title><link>https://fmatic.github.io/posts/backupsysteemi/</link><pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate><guid>https://fmatic.github.io/posts/backupsysteemi/</guid><description>&lt;h2 id="lähtötilanne"&gt;Lähtötilanne&lt;/h2&gt;
+&lt;p&gt;Kotiverkossani pyörii useita Linux-koneita eri tehtävissä:&lt;br&gt;
+Raspberry Pi -palvelimia, yksi MiniPC, yksi Debian-pohjainen pääkone sekä Windows-työpöytä.&lt;/p&gt;
+&lt;p&gt;Koneet tekevät asioita, jotka &lt;strong&gt;eivät saa mennä rikki&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenWebRX&lt;/li&gt;
+&lt;li&gt;FM-DX-palvelimia&lt;/li&gt;
+&lt;li&gt;ADS-B&lt;/li&gt;
+&lt;li&gt;musiikkipalvelu&lt;/li&gt;
+&lt;li&gt;blogi ja kehitysympäristö&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yksi asia kuitenkin puuttui:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Yhtenäinen varmuuskopiointi – ja ennen kaikkea näkyvyys siihen, että se oikeasti toimii.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="varmuuskopioinnin-perusta"&gt;Varmuuskopioinnin perusta&lt;/h2&gt;
+&lt;p&gt;Varsinainen backup-ratkaisu syntyi melko suoraviivaisesti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yksi keskuskone varmuuskopioille&lt;/li&gt;
+&lt;li&gt;SSH-yhteys kaikkiin koneisiin&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsync&lt;/code&gt; ja snapshotit (&lt;code&gt;--link-dest&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;ajastus cronilla&lt;/li&gt;
+&lt;li&gt;retention (esim. 30 päivää)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Periaatteet olivat selkeät:&lt;/p&gt;</description></item></channel></rss>
