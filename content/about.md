@@ -20,7 +20,7 @@ Radioprojektit:
 * https://vadelma.live
 * https://vadelma.lol
 * https://vadelma.xyz
-
+* https://shortwave.sbs
 
 Muita sivustojani:
 
