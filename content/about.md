@@ -1,4 +1,4 @@
-+++
+e+++
 title = "Kuka ihmeen fmatic?"
 date = "2025-11-11"
 aliases = ["about-us","about-hugo","contact"]
@@ -13,6 +13,15 @@ Sananen sivuston ylläpitäjästä:
 * Sijainti: Jyväskylä
 * Muuta mainittavaa: Radioharrastaja. Tunnetaan siellä täällä nimimerkillä JJH ja OH6-201
 
+Radioprojektit:
+
+* https://vadelma.online
+* https://vadelma.icu
+* https://vadelma.live
+* https://vadelma.lol
+* https://vadelma.xyz
+
+
 Muita sivustojani:
 
 * https://www.fmdx.online
@@ -21,6 +30,7 @@ Muita sivustojani:
 * https://www.heinikangas.info
 * https://www.vintageromppeet.fi
 * https://www.radioaktiiviset.info
+* https://deadairproject.online
 * Some-linkit löytyvät blogin alaosasta
 
 Resistance is a Futile!
