@@ -1,5 +1,5 @@
 
-baseURL = "https://fmatic.github.io"
+baseURL = "https://vadelma.nexus"
 languageCode = "fi-FI"
 title = "fmatic's digital playground"
 theme = "archie"
